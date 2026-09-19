@@ -44,7 +44,7 @@ public boolean checkCellPhoneNumber(){
     // starts with the south african international code 
     // and is the correct length
     checkcellPhoneNumber(String cellNumber){
-    if(cellNumber.startWith("+27") &&)
+    if(cellNumber.startWith("+27") &&);
         cellNumber.length()==12){
         // Check if the rest are only digits 
         String numberPart =
@@ -56,8 +56,8 @@ public boolean checkCellPhoneNumber(){
     }
         return false;
 }
-public static String registerCellNumber(String cellNumber){
-        if(checkCellnumber(cellNumber(cellNumber)){
+public static void main(String registerCellNumber(String cellNumber){
+        if(checkCellnumber(cellNumber(cellNumber))){
             return "Cell number successfully captured ";
         } else {
             return "Cell number is incorrectly formated; please enter the number and try again.";
